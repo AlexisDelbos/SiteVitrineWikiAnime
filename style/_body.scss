@@ -1,0 +1,53 @@
+body{
+    margin : 0px;
+    padding: 0;
+    min-height: 100%;
+    background-color: rgb(84, 69, 58);
+    font-size: large;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    h2{
+        text-decoration: underline;
+        color:rgb(168, 115, 11);
+        
+    }
+
+    #liensDocument ul {
+        list-style: none;
+        padding: 10;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        gap: 15px; 
+        max-width: 600px; /* Ajoutez cette ligne */
+        margin: 0; /* Centrez les ul dans la page si la largeur est inférieure à 600px */
+    }
+    #liensDocument li {
+        margin-bottom: 10px; 
+        background-color: rgb(195, 174, 147);
+         border-radius: 5px;
+    }
+    #liensDocument a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+    }
+    #liensDocument a:hover {
+        background-color: rgb(19, 68, 96); 
+        text-decoration: underline; 
+        color: white;
+    }
+    div h2 {
+        margin-bottom: 10px; 
+    }
+    #moi {
+        margin-bottom: 20px; 
+
+    }
+    
+}

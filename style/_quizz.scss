@@ -1,0 +1,91 @@
+.anime-quiz {
+    margin: 0;
+    padding: 0;
+    place-items: center;
+    min-height: 80vh;
+}
+
+.anime-quiz #questionImage {
+    display: block;
+    margin: 20px auto; /* Ajoute de la marge autour de l'image et la centre horizontalement */
+    width:  30%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    height: auto; /* Garantit que l'image conserve ses proportions originales */
+    border-radius: 8px; /* Ajoute un arrondi aux coins de l'image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
+}
+
+.anime-quiz div {
+    
+    max-width: 800px;
+    background-color: rgb(168, 115, 11);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-quiz h1 {
+    text-align: center;
+    color: rgb(168, 115, 11);
+}
+
+.anime-quiz #question {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+    margin: 10px 30%;
+}
+
+.anime-quiz ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.anime-quiz li {
+    margin: 10px 30%;
+    width: auto;
+}
+
+.anime-quiz #options {
+    margin-top: 20px;
+}
+
+.anime-quiz #options li {
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.anime-quiz #options li:hover {
+    background-color: #d2d2d2;
+}
+
+.anime-quiz #score {
+    margin: 10px 30%;
+    text-align: left;
+    color: #000000;
+
+}
+
+.anime-quiz .result-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.anime-quiz .result-list li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.anime-quiz .correct-answer {
+    background-color: #c8e6c9; /* Couleur de fond pour les réponses correctes */
+}
+
+.anime-quiz .incorrect-answer {
+    background-color: #ffcdd2; 
+}

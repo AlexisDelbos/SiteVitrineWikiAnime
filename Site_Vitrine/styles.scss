@@ -1,0 +1,47 @@
+@use '../style/header';
+@use '../style/footer';
+@use '../style/body';
+@use '../style/boutton';
+@use '../style/bulle';
+@use '../style/contact';
+@use '../style/quizz';
+@use '../style/anime';
+@use '../style/home';
+
+* {
+	margin:0px;
+	padding:0px;
+	
+}
+
+@media only screen and (max-width: 600px) {
+	.header nav {
+	  flex-direction: column;
+	}
+  
+	.header nav ul {
+	  text-align: center;
+	  padding: 10px;
+	}
+  
+	.social-links {
+	  flex-direction: column;
+	}
+  
+	.container {
+	  max-width: 100%;
+	}
+  
+	.anime-quiz div {
+	  max-width: 100%;
+	  padding: 10px;
+	}
+  
+	.anime-quiz #question,
+	.anime-quiz li {
+	  margin: 10px 5%;
+	}
+  
+
+
+  }

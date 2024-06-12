@@ -1,0 +1,35 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100%;
+  margin-top: auto; 
+}
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .social-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-links a {
+    margin-left: 10px; 
+  }
+    
+  .social-links a:last-child {
+    margin-right: 40px; 
+  }
+  

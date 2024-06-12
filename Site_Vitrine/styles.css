@@ -1,0 +1,568 @@
+@charset "UTF-8";
+.header {
+  background-color: #201f1e;
+  color: #06C149;
+  padding: 15px;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+nav ul a:hover {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100%;
+  margin-top: auto;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  margin-left: 10px;
+}
+
+.social-links a:last-child {
+  margin-right: 40px;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+  min-height: 100%;
+  background-color: rgb(108, 104, 94);
+  font-size: large;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body h2 {
+  text-decoration: underline;
+  color: #000000;
+}
+body #liensDocument ul {
+  list-style: none;
+  padding: 10;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 600px; /* Ajoutez cette ligne */
+  margin: 0; /* Centrez les ul dans la page si la largeur est inférieure à 600px */
+}
+body #liensDocument li {
+  margin-bottom: 10px;
+  background-color: rgb(195, 174, 147);
+  border-radius: 5px;
+}
+body #liensDocument a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+body #liensDocument a:hover {
+  background-color: rgb(19, 68, 96);
+  text-decoration: underline;
+  color: white;
+}
+body div h2 {
+  margin-bottom: 10px;
+}
+body #moi {
+  margin-bottom: 20px;
+}
+
+#boutton_pw {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#boutton_pw button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #201f1e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#boutton_pw button:hover {
+  background-color: rgb(19, 68, 96);
+  text-decoration: underline;
+  color: white;
+}
+
+.infoBubble {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#infoBubble1.hidden,
+#infoBubble2.hidden,
+#infoBubble3.hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#presG {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#presG li {
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#pop1 {
+  background-color: rgb(195, 174, 147);
+  color: #000000;
+}
+
+#pop2 {
+  background-color: rgb(195, 174, 147);
+  color: #000000;
+}
+
+#pop3 {
+  background-color: rgb(195, 174, 147);
+  color: #000000;
+}
+
+#pop1:hover {
+  background-color: rgb(19, 68, 96);
+  text-decoration: underline;
+  color: white;
+}
+
+#pop2:hover {
+  background-color: rgb(19, 68, 96);
+  text-decoration: underline;
+  color: white;
+}
+
+#pop3:hover {
+  background-color: rgb(19, 68, 96);
+  text-decoration: underline;
+  color: white;
+}
+
+.infoBubble ul li {
+  list-style-type: none;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.877);
+  margin-top: 40px;
+}
+
+form {
+  margin-top: 20px;
+  max-width: 1600px; /* Set the maximum width for the form */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: rgb(195, 174, 147);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(19, 68, 96);
+}
+
+#portfolio {
+  display: inline-block; /* Ajuster à la taille du contenu */
+  background-color: #928f8f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  text-align: center; /* Centrer horizontalement */
+}
+
+#portfolio p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 0; /* Supprime la marge par défaut du paragraphe */
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #201f1e;
+  font-weight: bold;
+}
+
+#portfolio a:hover {
+  text-decoration: underline;
+}
+
+.anime-quiz {
+  margin: 0;
+  padding: 0;
+  place-items: center;
+  min-height: 80vh;
+}
+
+.anime-quiz #questionImage {
+  display: block;
+  margin: 20px auto; /* Ajoute de la marge autour de l'image et la centre horizontalement */
+  width: 30%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+  height: auto; /* Garantit que l'image conserve ses proportions originales */
+  border-radius: 8px; /* Ajoute un arrondi aux coins de l'image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
+}
+
+.anime-quiz div {
+  max-width: 800px;
+  background-color: rgb(168, 115, 11);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-quiz h1 {
+  text-align: center;
+  color: rgb(168, 115, 11);
+}
+
+.anime-quiz #question {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #000000;
+  margin: 10px 30%;
+}
+
+.anime-quiz ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.anime-quiz li {
+  margin: 10px 30%;
+  width: auto;
+}
+
+.anime-quiz #options {
+  margin-top: 20px;
+}
+
+.anime-quiz #options li {
+  background-color: #e4e4e4;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.anime-quiz #options li:hover {
+  background-color: #d2d2d2;
+}
+
+.anime-quiz #score {
+  margin: 10px 30%;
+  text-align: left;
+  color: #000000;
+}
+
+.anime-quiz .result-list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.anime-quiz .result-list li {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.anime-quiz .correct-answer {
+  background-color: #c8e6c9; /* Couleur de fond pour les réponses correctes */
+}
+
+.anime-quiz .incorrect-answer {
+  background-color: #ffcdd2;
+}
+
+/* ... Votre CSS existant ... */
+/* Style pour la section d'information sur l'anime */
+.anime-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les éléments horizontalement */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style pour l'image de l'anime */
+.anime-poster {
+  width: 100%;
+  max-height: 400px; /* Ajustez cette valeur en fonction de la hauteur souhaitée */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0; /* Retire la marge en bas de l'image */
+}
+
+.synopsis-box {
+  background-color: rgb(168, 115, 11); /* Couleur de fond différente */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 0; /* Retire la marge en haut du synopsis */
+  margin-bottom: 80px; /* Ajoute une marge en bas du synopsis */
+  overflow: hidden; /* Pour masquer tout contenu dépassant la hauteur spécifiée */
+  max-width: 100%;
+  box-sizing: border-box; /* Ajoutez cette ligne pour inclure le padding dans la largeur */
+}
+
+/* Style pour le synopsis de l'anime */
+.anime-synopsis {
+  color: #000000;
+  font-size: x-large;
+}
+
+/* Style pour la section des commentaires */
+.comments {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(168, 115, 11); /* Ajoutez une couleur de fond à l'espace commentaire */
+}
+
+/* Style pour l'en-tête des commentaires */
+.comment-heading {
+  color: #060000;
+}
+
+/* Style pour le formulaire de commentaire */
+#comment-form {
+  margin-bottom: 20px;
+}
+
+/* Style pour la zone de texte du commentaire */
+.comment-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style pour le bouton de soumission du commentaire */
+.comment-submit {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.comment-submit:hover {
+  background-color: #555;
+}
+
+.quiz-container {
+  text-align: center;
+  margin-bottom: 100px;
+  display: inline-block;
+  max-width: 30%; /* Ajustez la largeur maximale selon vos préférences */
+  margin-left: auto; /* Ajout de margin automatique à gauche */
+  margin-right: auto; /* Ajout de margin automatique à droite */
+}
+
+#unique-quiz-link {
+  display: block;
+  padding: 10px;
+  background-color: #4285f4; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-size: 36px; /* Taille de police de base */
+}
+
+#unique-quiz-link:hover {
+  background-color: #3b79d8; /* Couleur de fond au survol */
+}
+
+/* Style pour l'espace stylisé */
+.styled-space {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.styled-line {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  width: 30%; /* Ajustez la largeur de la ligne selon vos préférences */
+}
+
+.styled-text {
+  display: inline-block;
+  padding: 0 10px;
+  color: #999;
+  font-size: 16px;
+}
+
+/* ... Votre CSS existant ... */
+@media only screen and (max-width: 600px) {
+  .header nav {
+    flex-direction: column;
+  }
+  .header nav ul {
+    text-align: center;
+    padding: 10px;
+  }
+  .social-links {
+    flex-direction: column;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .anime-quiz div {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .anime-quiz #question,
+  .anime-quiz li {
+    margin: 10px 5%;
+  }
+  .anime-info .synopsis-box {
+    max-width: 100%;
+  }
+  .quiz-container {
+    margin-top: 10px; /* Ajustez la marge pour les petits écrans */
+  }
+  #unique-quiz-link {
+    padding: 8px; /* Ajustez le rembourrage pour les petits écrans */
+    font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+  }
+  .styled-line {
+    width: 50%; /* Ajustez la largeur de la ligne pour les petits écrans */
+  }
+  .styled-text {
+    font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header nav {
+    flex-direction: column;
+  }
+  .header nav ul {
+    text-align: center;
+    padding: 10px;
+  }
+  .social-links {
+    flex-direction: column;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .anime-quiz div {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .anime-quiz #question,
+  .anime-quiz li {
+    margin: 10px 5%;
+  }
+}/*# sourceMappingURL=styles.css.map */

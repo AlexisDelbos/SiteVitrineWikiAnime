@@ -1,0 +1,90 @@
+[
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/One Piece.png",
+        "question": "Quel est l'année de sortie du premier episode de One Piece' ?",
+        "options": [
+            "1996",
+            "1998",
+            "1999",
+            "2000"
+        ],
+        "answer": "1999"
+    },
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Luffy.png",
+        "question": " Comment s'appelle ce personnage ?",
+        "options": [
+            "Big mom",
+            "Baggy",
+            "Monkey D.Luffy",
+            "Monkey D.Dragon"
+        ],
+        "answer": "Monkey D.Luffy"
+    },
+     {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Zorro.jpg",
+        "question": "Quel est le rêve de Zorro ?",
+        "options": [
+            "Devenir Roi des Pirates",
+            "Devenir l'homme le plus fort",
+            "Devenir le plus fort sabreur du monde",
+            "Devenir Père"
+        ],
+        "answer": "Devenir le plus fort sabreur du monde"
+    },
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Sanji.jpg",
+        "question": "Quel reve poursuit Sanji ? ",
+        "options": [
+            "Trouver All Blue",
+            "Devenir le meilleur cuisinier",
+            "Avoir un equipage que de femme",
+            "Rien faire"
+        ],
+        "answer": "Trouver All Blue"
+    },
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Marine ford.jpg",
+        "question": "Qui meurt lors de la bataille de Marine Ford ?",
+        "options": [
+            "Ace & Barbe Blanche",
+            "Ace & Barbe noire",
+            "Ace & Jinbei",
+            "Barbe blanche & Jinbei"
+        ],
+        "answer": "Ace & Barbe Blanche"
+    },
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Kuma.jpg",
+        "question": "Qui est ce personnage ?",
+        "options": [
+            "Bartholomew Kuma",
+            "Ace",
+            "Barbe Noire",
+            "Doflamingo"
+        ],
+        "answer": "Bartholomew Kuma"
+    },
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Shanks.jpg",
+        "question": "Qui est ce personnage ?",
+        "options": [
+            "Shanks",
+            "Big mom",
+            "Kaido",
+            "Baggy"
+        ],
+        "answer": "Shanks"
+    },
+    {
+        "imgQuizz": "/Wiki-Anime/img_quizz/Barbenoir.jpg",
+        "question": "Qui est ce personnage ?",
+        "options": [
+            "Barbe Noire",
+            "Doffy",
+            "Nami",
+            "Oden"
+        ],
+        "answer": "Barbe Noire"
+    }
+]

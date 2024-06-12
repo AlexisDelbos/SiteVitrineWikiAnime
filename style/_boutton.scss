@@ -1,0 +1,21 @@
+#boutton_pw {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#boutton_pw button {
+    margin: 10px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    color: #fff; 
+    background-color:#201f1e;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#boutton_pw button:hover {
+    background-color: rgb(19, 68, 96); 
+    text-decoration: underline; 
+    color: white;
+}

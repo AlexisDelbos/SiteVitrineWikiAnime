@@ -1,0 +1,168 @@
+/* ... Votre CSS existant ... */
+
+/* Style pour la section d'information sur l'anime */
+.anime-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments horizontalement */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style pour l'image de l'anime */
+  .anime-poster {
+    width: 100%;
+    max-height: 400px; /* Ajustez cette valeur en fonction de la hauteur souhaitée */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0; /* Retire la marge en bas de l'image */
+  }
+  
+  .synopsis-box {
+    background-color: rgb(168, 115, 11); /* Couleur de fond différente */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 0; /* Retire la marge en haut du synopsis */
+    margin-bottom: 80px; /* Ajoute une marge en bas du synopsis */
+    overflow: hidden; /* Pour masquer tout contenu dépassant la hauteur spécifiée */
+    max-width: 100%;
+    box-sizing: border-box; /* Ajoutez cette ligne pour inclure le padding dans la largeur */
+  }
+  
+  /* Style pour le synopsis de l'anime */
+  .anime-synopsis {
+    color: #000000;
+    font-size: x-large;
+  }
+  
+  /* Style pour la section des commentaires */
+  .comments {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(168, 115, 11); /* Ajoutez une couleur de fond à l'espace commentaire */
+  }
+  
+  /* Style pour l'en-tête des commentaires */
+  .comment-heading {
+    color: #060000;
+  }
+  
+  /* Style pour le formulaire de commentaire */
+  #comment-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour la zone de texte du commentaire */
+  .comment-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour le bouton de soumission du commentaire */
+  .comment-submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment-submit:hover {
+    background-color: #555;
+  }
+  
+  .quiz-container {
+    text-align: center;
+    margin-bottom: 100px;
+    display: inline-block;
+    max-width: 30%; /* Ajustez la largeur maximale selon vos préférences */
+    margin-left: auto; /* Ajout de margin automatique à gauche */
+    margin-right: auto; /* Ajout de margin automatique à droite */
+  }
+  
+  #unique-quiz-link {
+    display: block;
+    padding: 10px;
+    background-color: #4285f4; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 36px; /* Taille de police de base */
+  }
+  
+  #unique-quiz-link:hover {
+    background-color: #3b79d8; /* Couleur de fond au survol */
+  }
+  
+  
+  /* Style pour l'espace stylisé */
+  .styled-space {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .styled-line {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 30%; /* Ajustez la largeur de la ligne selon vos préférences */
+  }
+  
+  .styled-text {
+    display: inline-block;
+    padding: 0 10px;
+    color: #999;
+    font-size: 16px;
+  }
+  
+  /* ... Votre CSS existant ... */
+  
+  @media only screen and (max-width: 600px) {
+    .header nav {
+      flex-direction: column;
+    }
+    .header nav ul {
+      text-align: center;
+      padding: 10px;
+    }
+    .social-links {
+      flex-direction: column;
+    }
+    .container {
+      max-width: 100%;
+    }
+    .anime-quiz div {
+      max-width: 100%;
+      padding: 10px;
+    }
+    .anime-quiz #question,
+    .anime-quiz li {
+      margin: 10px 5%;
+    }
+    .anime-info .synopsis-box {
+      max-width: 100%;
+    }
+   
+    .quiz-container {
+        margin-top: 10px; /* Ajustez la marge pour les petits écrans */
+      }
+    
+      #unique-quiz-link {
+        padding: 8px; /* Ajustez le rembourrage pour les petits écrans */
+        font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+      }
+    
+      .styled-line {
+        width: 50%; /* Ajustez la largeur de la ligne pour les petits écrans */
+      }
+    
+      .styled-text {
+        font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+      }
+  }
+  

@@ -1,0 +1,72 @@
+.infoBubble {
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    
+}
+
+#infoBubble1.hidden,
+#infoBubble2.hidden,
+#infoBubble3.hidden {
+  display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#presG {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#presG li {
+    margin-right: 10px; 
+    cursor: pointer; 
+    padding: 8px 12px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#pop1 {
+    background-color: rgb(195, 174, 147);
+    color: #000000;
+}
+
+#pop2 {
+    background-color: rgb(195, 174, 147);
+    color: #000000;
+}
+
+#pop3 {
+    background-color: rgb(195, 174, 147);
+    color: #000000;
+}
+
+#pop1:hover{
+    background-color: rgb(19, 68, 96); 
+    text-decoration: underline; 
+    color: white;
+}
+#pop2:hover{
+    background-color: rgb(19, 68, 96); 
+    text-decoration: underline; 
+    color: white;
+}
+#pop3:hover{
+    background-color: rgb(19, 68, 96); 
+    text-decoration: underline; 
+    color: white;
+}
+
+.infoBubble ul li {
+    list-style-type: none;
+
+}
